@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>dummy page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/dummy.css">
+</head>
+
+<body>
+
+
+  <!-- navbar start -->
+
+  <nav class="navbar navbar-expand-xxl bg-black sticky-top">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="#">
+        <img class="logo" src="image/logo8.png">
+      </a>
+      <!-- content : search login and cart for below xxl screen -->
+      <div class=" d-xxl-none m-sm-auto">
+        <button  class="btn text-white " type="submit"><i class="fa fa-user text-white"></i> Login</button>
+        <button  class="btn text-white" type="submit"><i class="fa fa-shopping-cart text-white"></i> Cart</button>
+        <button  class="btn text-white " type="submit"><i class="fa fa-search text-white "></i> Search</button>
+        </div>
+        <!-- content  end: search login and cart for below xxl screen -->
+
+      <!-- toggler button start -->
+      <button class="navbar-toggler orange" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- toggler button end -->
+      <!-- offcanvas start -->
+      <div class="offcanvas offcanvas-end khaki
+      " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title fw-bold" id="offcanvasNavbarLabel">ONLINE BOOK STORE</h5>
+          <button type="button" class="btn-close bg-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body ">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item ">
+              <a class="nav-link orange active fw-bold" aria-current="page" href="#">Home</a>
+            </li>
+            <!-- nav dropdown1:start -->
+            <li class="nav-item dropdown dropdown-mega position-static ">
+              <a class="nav-link  khaki fw-bold text-black dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                Books
+              </a>
+              <div class="dropdown-menu scrollabe-menu shadow">
+                <div class="mega-content px-md-4">
+                  <div class="container-fluid ">
+                    <div class="row">
+                      <!-- col1:start -->
+                      <div class=" col-12 col-xxl-3  py-4 px-xl-5 px-4 khaki">
+                        <h5 class="fw-bold">Arts & Photography</h5>
+                        <div class="list-group">
+                          <a href="#" class="list-group-item">
+                            Architecture
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Art Forms
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Art Treatment & Subjects
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Dance & Other Performing Arts
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Film,tv & Radio
+                          </a>
+                          <!-- list-group:end -->
+                        </div>
+                        <!-- col1:end -->
+                      </div>
+
+
+                      <!-- col2:start -->
+                      <div class=" col-12 col-xxl-3  py-4 px-xl-5 px-4 khaki">
+                        <h5 class="fw-bold">Biographies</h5>
+                        <div class="list-group">
+                          <a href="#" class="list-group-item">
+                            Biography:General
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Collected Biographies
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Memoirs
+                          </a>
+                          <a href="#" class="list-group-item">
+                            True Stories
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Diary & Journals
+                          </a>
+                          <!-- list-group:end -->
+                        </div>
+                        <!-- col2:end -->
+                      </div>
+
+                      <!-- col3:start -->
+                      <div class="col-12 col-xxl-3  py-4 px-xl-5 px-4 khaki">
+                        <h5 class="fw-bold">Literature & Literary Studies</h5>
+                        <div class="list-group">
+                          <a href="#" class="list-group-item">
+                            Anthology
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Classical Text
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Literature:history & Criticism
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Play, PlayScripts
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Poetry
+                          </a>
+                          <!-- list-group:end -->
+                        </div>
+                        <!-- col3:end -->
+                      </div>
+
+                      <!-- col4:start -->
+                      <div class="col-12 col-xxl-3   py-4 px-xl-5 px-4 khaki">
+                        <h5 class="fw-bold">Reference & Encyclopaedias</h5>
+                        <div class="list-group">
+                          <a href="#" class="list-group-item">
+                            Encyclopaedias & Reference work
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Interdisciplinary Studies
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Library information science
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Museums & museology
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Research & information General
+                          </a>
+                          <!-- list-group:end -->
+                        </div>
+                        <!-- col4:end -->
+                      </div>
+
+
+                      <!-- col5:start -->
+                      <div class=" col-12 col-xxl-3  py-4  px-xl-5 px-4 khaki">
+                        <h5 class="fw-bold">Science & Mathematics</h5>
+                        <div class="list-group">
+                          <a href="#" class="list-group-item">
+                            Astronomy space & Time
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Biology:Life Science
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Physics
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Chemistry
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Science:General Issues
+                          </a>
+
+                          <!-- list-group:end -->
+                        </div>
+                        <!-- col5:end -->
+                      </div>
+
+
+                      <!-- col6:start -->
+                      <div class=" col-12 col-xxl-3  py-4 px-xl-5 px-4 khaki">
+                        <h5 class="fw-bold">Medicine</h5>
+                        <div class="list-group">
+                          <a href="#" class="list-group-item">
+                            Clinical & Internal Medicine
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Complementary Medicine
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Medicine: General Issues
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Nursing & ancillary Service
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Surgery
+                          </a>
+                          <!-- list-group:end -->
+                        </div>
+                        <!-- col6:end -->
+                      </div>
+
+                      <!-- col7:start -->
+                      <div class="col-12 col-xxl-3  py-4 px-xl-5 px-4 khaki">
+                        <h5 class="fw-bold">Technology & Engineering</h5>
+                        <div class="list-group">
+                          <a href="#" class="list-group-item">
+                            Agriculture & Farming
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Biochemical Engineering
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Energy Technology & Engineering
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Civil Engineering
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Technology:Genral Issues
+                          </a>
+                          <!-- list-group:end -->
+                        </div>
+                        <!-- col7:end -->
+                      </div>
+
+                      <!-- col8:start -->
+                      <div class="col-12 col-xxl-3   py-4 px-xl-5 px-4 khaki">
+                        <h5 class="fw-bold">Computer & Inrenet</h5>
+                        <div class="list-group">
+                          <a href="#" class="list-group-item">
+                            Business Application
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Computer Certification
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Computer science
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Computer Security
+                          </a>
+                          <a href="#" class="list-group-item">
+                            Database
+                          </a>
+                          <!-- list-group:end -->
+                        </div>
+                        <!-- col8:end -->
+                      </div>
+
+                      <!-- row:end -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </li>
+            <!-- nav dropdown1:end -->
+
+            <li class="nav-item">
+              <a class="nav-link orange fw-bold text-black" href="#">New Arrivals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link khaki fw-bold text-black" href="#">Best Sellers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link orange fw-bold text-black" href="#">Fiction Books</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link khaki fw-bold text-black" href="#">Award Winners</a>
+            </li>
+            <!-- nav dropdown1:start -->
+            <li class="nav-item dropdown">
+              <a class="nav-link  orange dropdown-toggle fw-bold text-black" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                Box Sets
+              </a>
+
+              <!-- dropdown1 start -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+               
+                <!-- sub-dropdown1 start -->
+                <li class="dropend ">
+                  <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Arts and Photography</a>
+                  <ul class="dropdown-menu orange">
+                    <li><a href="" class="dropdown-item">Architecture</a></li>
+                    <li><a href="" class="dropdown-item">Art Forms</a></li>
+                    <li><a href="" class="dropdown-item">Art Treatment & Subject</a></li>
+                    <li><a href="" class="dropdown-item">Dance & Other Performing Arts</a></li>
+                    <li><a href="" class="dropdown-item">Film,T.V & Radio</a></li>
+                    <li><a href="" class="dropdown-item">Art Treatment</a></li>
+                                
+                </ul>
+              </li>
+                  <!-- sub-dropdown1 end -->           
+                             
+
+                <li><a class="dropdown-item" href="#">Business & Economics</a></li>
+                <li><a class="dropdown-item" href="#">Children & Teens</a></li>
+
+                   <!-- sub-dropdown2 start -->
+                   <li class="dropend ">
+                    <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Computer & Internet</a>
+                    <ul class="dropdown-menu ">
+                      <li><a href="" class="dropdown-item">Computer Science</a></li>
+                      <li><a href="" class="dropdown-item">Art Forms</a></li>
+                      <li><a href="" class="dropdown-item">Art Treatment & Subject</a></li>
+                      <li><a href="" class="dropdown-item">Dance & Other Performing Arts</a></li>
+                      <li><a href="" class="dropdown-item">Film,T.V & Radio</a></li>
+                      <li><a href="" class="dropdown-item">Art Treatment</a></li>
+                            
+                  </ul>
+                </li>
+                    <!-- sub-dropdown2 end -->
+
+                <li><a class="dropdown-item" href="#">Dictionaies & Language</a></li>
+                <li><a class="dropdown-item" href="#">English Language Teaching</a></li>
+                <li><a class="dropdown-item" href="#">Fiction</a></li>
+
+                   <!-- sub-dropdown3 start -->
+                   <li class="dropend ">
+                    <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Law</a>
+                    <ul class="dropdown-menu ">
+                      <li><a href="" class="dropdown-item">Architecture</a></li>
+                      <li><a href="" class="dropdown-item">Art Forms</a></li>
+                      <li><a href="" class="dropdown-item">Art Treatment & Subject</a></li>
+                      <li><a href="" class="dropdown-item">Dance & Other Performing Arts</a></li>
+                      <li><a href="" class="dropdown-item">Film,T.V & Radio</a></li>
+                      <li><a href="" class="dropdown-item">Art Treatment</a></li>
+                                  
+                  </ul>
+                </li>
+                    <!-- sub-dropdown3 end -->
+
+                <li><a class="dropdown-item" href="#">Literature & Literary Studies</a></li>
+                <li><a class="dropdown-item" href="#">Medicine</a></li>
+                <li><a class="dropdown-item" href="#">Reference & Encyclopedia</a></li>
+                <li><a class="dropdown-item" href="#">Society & Social science</a></li>
+                <li><a class="dropdown-item" href="#">Science & Mathematics</a></li>
+                <li><a class="dropdown-item" href="#"></a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item orange fw-bold" href="#">ONLINE BOOK STORE</a></li>
+              </ul>
+            </li>
+            <!-- nav dropdown1:end -->
+            <li class="nav-item">
+              <a class="nav-link khaki fw-bold text-black" href="#">Featured Authors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link orange fw-bold text-black" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link khaki fw-bold text-black" href="#">Carrer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link orange fw-bold text-black" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link khaki fw-bold text-black" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <!-- nav item list end --> 
+
+
+        <!-- offcanvas-body end -->
+      </div>
+      <!-- offcanvas:end -->
+    </div>
+
+    <div class="d-none d-xxl-block">
+      <button  class="btn text-orange fw-bold" type="submit"><i class="fa fa-user text-white"></i> Login</button>
+      <button  class="btn text-orange fw-bold" type="submit"><i class="fa fa-shopping-cart text-white"></i> Cart</button>
+      <button  class="btn text-orange fw-bold " type="submit"><i class="fa fa-search text-white "></i> Search</button>
+      </div>
+    
+    <!-- container-fluid:end -->
+    </div>
+    <!-- navbar:end -->
+  </nav>
+
+
+  <!-- container:start -->
+  <div class="container ">
+
+
+
+    <!-- container:end -->
+  </div>
+
+  <footer class="bg-black p-4  text-white text-center">
+    <p class="m-0">copyright &copy; <a class="text-orange" href="#">Online Book Store</a> All rights reserved</p>
+    <div class="p-2">
+      <a class="fw-bold bg-primary" href="https://www.facebook.com/">
+        <i class="fa fa-facebook p-2 text-white"></i>
+      </a>
+      <a class="fw-bold bg-info" href="https://www.twitter.com/">
+        <i class="fa fa-twitter p-2 text-white"></i>
+            </a>
+      <a class="fw-bold bg-danger" href="https://www.instagram.com/">
+        <i class="fa fa-instagram  p-2 text-white"></i>
+      </a>
+      <a class="fw-bold bg-success" href="https://www.whatsapp.com/">
+        <i class="fa fa-whatsapp  p-2 text-white"></i>
+      </a>
+      <a class="fw-bold bg-primary" href="https://www.linkedin.com/">
+        <i class="fa fa-linkedin  p-2 text-white "></i>
+      </a>
+    </div>
+
+  </footer>
+
+
+
+
+
+
+
+
+
+  <!-- java script bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'El Messiri', sans-serif;
+}
+html{
+    height:100%;
+}
+body{
+    background: linear-gradient(-100deg, #dbc997 50%, #ff914d 50%);
+    display:flex;
+    flex-direction: column;
+    height:100%;
+}
+.text-blue {
+    color: #044463;
+}
+.blue{
+    background-color: #044463;
+}
+
+.logo
+{
+    height:100px;
+    width:120px;
+}
+
+/* style: color start */
+.orange
+{
+    background-color:#ff914d
+}
+.khaki
+{
+    background-color:#dbc997;
+}
+.text-orange
+{
+   color:#ff914d
+}
+.text-khaki
+{
+    color:#dbc997;
+}
+
+/* style: color end */
+a:hover{
+       background-color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    color:white;
+}
+h1{
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
+}
+h3 span{
+    color:#044463;
+}
+
+h3{
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
+  
+}
+h3 a:hover{
+    /* background-color:#044463; */
+     font-size:22px;
+    transform:translateX(5px);
+}
+h1 span{
+    color:#044463;
+}
+/* style mega-dropdown:  start */
+
+.dropdown-mega .dropdown-menu{
+    width:100%;
+    background-color: black;
+    margin-top:0;
+    max-height:600px;
+    overflow-y: scroll;  
+    
+}
+
+.dropdown-mega .h5{
+   padding-bottom: 12px;
+   border-bottom:1px solid rgba(0, 0, 0, 125);
+      margin:0;    
+    
+}
+
+.dropdown-mega .list-group-item{
+    font-size:1rem;
+    color:black;
+    background-color: #ff914d;
+     padding: 12px 8px;
+}
+
+.dropdown-mega .list-group-item:hover{
+    background-color: white;
+}
+/* style mega-dropdown:end */
+
+.dropdown .dropdown-menu
+{
+    background-color: #dbc997;
+}
+
+.dropdown .dropdown-menu ul :last-of-type
+{
+    background-color: #ff914d;
+
+}
+
+
+.offcanvas .offcanvas-body ul li a:hover{
+    
+    font-weight: bold;
+}
+
+footer{
+   
+  
+    width: 100%;
+    margin-top: auto;
+    
+}
+footer a:hover{
+    background-color:blue ;
+    
+}
+.fsize
+{
+    font-size:12px ;
+}
+
+
+
+/********************* modal login style:start **********************************/
+.login
+{
+    width:305px;
+    height:min-content;
+    padding:20px;
+    border-radius: 12px;
+    
+}
+.login h1{
+     font-size:36px;
+     margin-bottom: 25px;
+}
+.login form{
+    font-size:18px;
+}
+.login form .form-group{
+    margin-bottom: 12px;
+}
+form .btn:hover{
+   background-color:#044463;
+   font-size:22px;
+   transform:translateY(-5px);
+}
+
+/********************* modal login style:end **********************************/
+
+/* map:style start */
+section
+{
+    padding: 0 200px;
+    background-image:url('image/bg1.jpg');
+    /* background-color:dimgray; */
+    /* height:80vh; */
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box
+{   
+       /* width:100%; */
+  /* overflow: hidden; */
+    /* padding:10px; */
+    background:rgba(255, 255, 255, .2);
+    
+    box-shadow: (0 5px 15px rgba(0,0,0,.5));
+}
+ 
+/* banner:style */
+img{
+    width:100%;
+}

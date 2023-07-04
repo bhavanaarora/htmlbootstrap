@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'El Messiri', sans-serif;
+}
+.logo
+{
+    height:100px;
+    width:120px;
+}
+
+/* style: color start */
+.orange
+{
+    background-color:#ff914d
+}
+.khaki
+{
+    background-color:#dbc997;
+}
+.text-orange
+{
+   color:#ff914d
+}
+.text-khaki
+{
+    color:#dbc997;
+}
+
+/* style: color end */
+a:hover{
+       background-color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    color:white;
+}
+
+/* style mega-dropdown:  start */
+
+.dropdown-mega .dropdown-menu{
+    width:100%;
+    background-color: black;
+    margin-top:0;
+    max-height:525px;
+    overflow-y: scroll;  
+    
+}
+
+.dropdown-mega .h5{
+   padding-bottom: 12px;
+   border-bottom:1px solid rgba(0, 0, 0, 125);
+      margin:0;    
+    
+}
+
+.dropdown-mega .list-group-item{
+    font-size:1rem;
+    color:black;
+    background-color: #ff914d;
+     padding: 12px 8px;
+}
+
+.dropdown-mega .list-group-item:hover{
+    background-color: white;
+}
+/* style mega-dropdown:end */
+
+.dropdown .dropdown-menu
+{
+    background-color: #dbc997;
+}
+
+.dropdown .dropdown-menu ul :last-of-type
+{
+    background-color: #ff914d;
+
+}
+
+
+.offcanvas .offcanvas-body ul li a:hover{
+    
+    font-weight: bold;
+}
+
+footer a:hover{
+    background-color:blue ;
+    
+}
+.fsize
+{
+    font-size:12px ;
+}
+
+

@@ -1,0 +1,678 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'El Messiri', sans-serif;
+}
+body {
+    /* background-color: #dbc99780; */
+    background-color: #efefef;
+
+}
+.logo
+{
+    height:100px;
+    width:120px;
+}
+
+/* style: color start */
+.orange
+{
+    background-color:#ff914d
+}
+.khaki
+{
+    background-color:#dbc997;
+}
+.blue {
+    background-color: #044463;
+}
+.text-orange
+{
+   color:#ff914d
+}
+.text-khaki
+{
+    color:#dbc997;
+}
+.text-blue {
+    color: #044463;
+}
+/* style: color end */
+a:hover{
+       background-color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    color:white;
+}
+
+/* style mega-dropdown:  start */
+
+.dropdown-mega .dropdown-menu{
+    width:100%;
+    background-color: black;
+    margin-top:0;
+    max-height:615px;
+    overflow-y: scroll;  
+    
+}
+
+.dropdown-mega .h5{
+   padding-bottom: 12px;
+   border-bottom:1px solid rgba(0, 0, 0, 125);
+      margin:0;    
+    
+}
+
+.dropdown-mega .list-group-item{
+    font-size:1rem;
+    color:black;
+    background-color: #ff914d;
+     padding: 12px 8px;
+}
+
+.dropdown-mega .list-group-item:hover{
+    background-color: white;
+}
+/* style mega-dropdown:end */
+
+.dropdown .dropdown-menu
+{
+    background-color: #dbc997;
+}
+
+.dropdown .dropdown-menu ul :last-of-type
+{
+    background-color: #ff914d;
+
+}
+
+
+.offcanvas .offcanvas-body ul li a:hover{
+    
+    font-weight: bold;
+}
+
+footer a:hover{
+    background-color:blue ;
+    
+}
+.fsize
+{
+    font-size:12px ;
+}
+h1{
+    color:#545454;
+}
+/************************************ carousel style start *******************************/
+#carousel1 .carousel-control-next {
+    width: 30px;
+    height: 30px;
+    background-color: dimgrey;
+    bottom: 180px !important;
+    top: auto;
+    opacity: .5;
+    right: -10px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.card .card-img-overlay>div {
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40%;
+    display: none;
+}
+
+.card .card-img:hover .card-img-overlay>div {
+    display: block;
+}
+
+.card .card-img a {
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.card .card-img a:hover {
+
+    color: #044463;
+    font-weight: bold;
+    font-size: 22px;
+    ;
+}
+
+.card p {
+    text-align: justify;
+}
+
+.card .card-img img {
+    width: 250px;
+    height: 300px;
+}
+
+
+
+.box1 {
+
+    padding: 10px;
+    background: rgba(255, 255, 255, .8);
+    box-shadow: (0 5px 15px rgba(0, 0, 0, .5));
+    font-size: 20px;
+    font-weight: bold;
+    color: #044463;
+
+}
+
+
+section {
+    padding: 0 200px;
+    background-image: url('image/bg1.jpg');
+    background-color: dimgray;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    max-width: 500px;
+    padding: 10px;
+    background: rgba(255, 255, 255, .2);
+
+    box-shadow: (0 5px 15px rgba(0, 0, 0, .5));
+}
+
+.box h2 {
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #044463;
+}
+
+/********************* carousel style end **********************************/
+
+/******************************* section 10:style start *******************/
+#carousel2 .card{
+	/* width:auto; */
+    height:auto;
+	border-radius: 25px;
+	background-color: #ff914d;
+}
+#carousel2 .card-body
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    background-color: #dbc997;
+	
+}
+#carousel2 .card-body p{
+
+    text-align: justify;
+}
+
+#carousel2 .card-img-top
+{
+	position: relative;
+	height:50%;
+	width:50%;
+	border-radius: 50%;
+	background:#fff;
+	padding:3px;
+
+}
+   #carousel2 .card img
+{
+    /* height:140px;
+    width:140px; */
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 4px solid  #044463;
+
+
+}
+#carousel2 .carousel-control-next {
+    width: 30px;
+    height: 30px;
+    background-color: dimgrey;
+    bottom: 180px !important;
+    top: auto;
+    opacity: .5;
+    right: -10px;
+}
+/******************************** section 10:style start ********************/
+
+
+/******************************* section 11:style start *******************/
+#carousel3 .card{
+	/* width:auto; */
+    height:auto;
+	border-radius: 25px;
+	background-color: #ff914d;
+}
+#carousel3 .card-body
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    background-color: #dbc997;
+	
+}
+#carousel3 .card-body p{
+
+    text-align: justify;
+}
+
+#carousel3 .card-img-top
+{
+	position: relative;
+	height:50%;
+	width:50%;
+	border-radius: 50%;
+	background:#fff;
+	padding:3px;
+
+}
+   #carousel3 .card img
+{
+    /* height:140px;
+    width:140px; */
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 4px solid  #044463;
+
+
+}
+#carousel3 .carousel-control-next {
+    width: 30px;
+    height: 30px;
+    background-color: dimgrey;
+    bottom: 180px !important;
+    top: auto;
+    opacity: .5;
+    right: -10px;
+}
+/******************************** section 11:style start ********************/
+
+
+
+
+
+
+
+/********************* section 4 style start **********************************/
+
+.fbanner
+{
+    height:100%;
+    width:600px;
+}
+/********************* section 4 style end **********************************/
+
+/********************* section 6 style start **********************************/
+.cstyle{
+
+    /* background:linear-gradient(to right,#2c5364,#0f2027); */
+    height:55vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    overflow: hidden;
+    
+} 
+.slider{
+    position:relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: rotate 30s linear infinite;
+}
+
+@keyframes rotate {
+    0%  {
+        transform: perspective(1000px) rotateY(0deg);
+
+    }
+
+    100% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+.slider span{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    transform-origin:center;
+    transform-style:preserve-3d;
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(350px);
+
+}
+.slider span img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border-radius:10Px;
+    /* object-fit:cover; */
+    transition:2s;
+}
+
+.slider span:hover img{
+    transform: translateY(-25px) scale(1.2);
+}
+
+
+/********************* section 6 style end **********************************/
+
+
+
+/********************* modal login/signup style:start **********************************/
+.login
+{
+    width:305px;
+    height:min-content;
+    padding:20px;
+    border-radius: 12px;
+    
+}
+.login h1{
+     font-size:36px;
+     margin-bottom: 25px;
+}
+.login form{
+    font-size:18px;
+}
+.login form .form-group{
+    margin-bottom: 12px;
+}
+
+/********************* modal login style:end **********************************/
+
+
+
+
+/******************* multi carousel media style:start ********************/
+
+@media(min-width: 576px) and (max-width: 768px) {
+
+    .card {
+        width: 120px;
+        height: 200px;
+        text-align: center;
+        padding: 25px 0;
+        margin: auto;
+
+    }
+
+    .card .card-img img {
+        width: 85px;
+        height: 120px;
+    }
+
+    .card .card-img-overlay>div {
+        width: 100px;
+        text-align: center;
+        margin-top: 40%;
+        display: none;
+    }
+
+    .card .card-img a {
+        font-size: 12px;
+        font-weight: bold;
+
+    }
+
+    .card .card-img a:hover {
+
+        color: #044463;
+        font-weight: bold;
+        font-size: 14px;
+        ;
+    }
+    .card .btn {
+        font-size:12px;
+        font-weight:bold;
+        padding:2px;
+    }
+
+
+    #carousel1 .carousel-control-next {
+        width: 30px;
+        height: 30px;
+        background-color: dimgrey;
+        bottom: 100px !important;
+        top: auto;
+        opacity: .5;
+        right: -10px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+    .card {
+        width: 160px;
+        height: 250px;
+        text-align: center;
+        padding: 25px 0;
+        margin: auto;
+
+    }
+
+    .card .card-img img {
+        width: 115px;
+        height: 150px;
+    }
+
+    .card .card-img-overlay>div {
+        width: 100px;
+        text-align: center;
+        margin-top: 40%;
+        display: none;
+    }
+
+    .card .card-img a {
+        font-size: 12px;
+        font-weight: bold;
+
+    }
+
+    .card .card-img a:hover {
+
+        color: #044463;
+        font-weight: bold;
+        font-size: 14px;
+        ;
+    }
+
+    #carousel1 .carousel-control-next {
+        width: 30px;
+        height: 30px;
+        background-color: dimgrey;
+        bottom: 120px !important;
+        top: auto;
+        opacity: .5;
+        right: -10px;
+    }
+    #carousel2 h2{
+        font-size:20px;
+    }
+    #carousel3 h2{
+        font-size:20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .card {
+        width: 225px;
+        height: 350px;
+        text-align: center;
+        padding: 25px 0;
+    }
+
+    .card .card-img img {
+        width: 175px;
+        height: 250px;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+    .card {
+        width: 250px;
+        height: 350px;
+        text-align: center;
+        padding: 25px 0;
+    }
+
+    .card .card-img img {
+        width: 200px;
+        height: 250px;
+    }
+}
+
+/******************* multi carousel media style:end ********************/
+
+
+/******************* multi carousel media style:start ********************/
+
+@media (max-width: 576px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* small and up screens */
+@media (min-width: 578px) {
+
+    /* .carousel-inner .carousel-item-end.active, */
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+    transform: translateX(0);
+}
+/******************* multi carousel media style:end ********************/
+/* multi carousel2 style:start */
+
+@media (max-width: 576px) {
+    #carousel2 .carousel-inner .carousel-item>div {
+         display: none;
+     }
+     
+     #carousel2 .carousel-inner .carousel-item>div:first-child {
+         display: block;
+     }
+ }
+ 
+ #carousel2 .carousel-inner .carousel-item.active,
+ #carousel2 .carousel-inner .carousel-item-next,
+ #carousel2 .carousel-inner .carousel-item-prev {
+     display: flex;
+ }
+ 
+ /* small and up screens */
+ @media (min-width: 578px) {
+ 
+     /* .carousel-inner .carousel-item-end.active, */
+     #carousel2 .carousel-inner .carousel-item-next {
+         transform: translateX(25%);
+     }
+ 
+     #carousel2 .carousel-inner .carousel-item-start.active,
+     #carousel2 .carousel-inner .carousel-item-prev {
+         transform: translateX(-25%);
+     }
+ 
+ 
+ 
+ 
+ }
+ 
+ #carousel2 .carousel-inner .carousel-item-end,
+ #carousel2 .carousel-inner .carousel-item-start {
+     transform: translateX(0);
+ }
+
+ /************************ carousel2 style end **********************/
+
+
+
+ /* multi carousel3 style:start */
+
+@media (max-width: 576px) {
+    #carousel3 .carousel-inner .carousel-item>div {
+         display: none;
+     }
+ 
+     #carousel3 .carousel-inner .carousel-item>div:first-child {
+         display: block;
+     }
+ }
+ 
+ #carousel3 .carousel-inner .carousel-item.active,
+ #carousel3 .carousel-inner .carousel-item-next,
+ #carousel3 .carousel-inner .carousel-item-prev {
+     display: flex;
+ }
+ 
+ /* small and up screens */
+ @media (min-width: 578px) {
+ 
+     /* .carousel-inner .carousel-item-end.active, */
+     #carousel3 .carousel-inner .carousel-item-next {
+         transform: translateX(25%);
+     }
+ 
+     #carousel3 .carousel-inner .carousel-item-start.active,
+     #carousel3 .carousel-inner .carousel-item-prev {
+         transform: translateX(-25%);
+     }
+ 
+ 
+ 
+ 
+ }
+ 
+ #carousel3 .carousel-inner .carousel-item-end,
+ #carousel3 .carousel-inner .carousel-item-start {
+     transform: translateX(0);
+ }
+
+ /************************ carousel3 style end **********************/
